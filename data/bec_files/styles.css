@@ -1,0 +1,58 @@
+
+body { text-align: justify }
+
+blockquote { margin: 0em 0em 0em 2em; }
+
+p { margin: 0em; text-indent: 1.5em }
+
+.bold { font-weight: bold }
+
+.italic { font-style: italic }
+
+.underline { text-decoration: underline }
+
+.mbp_pagebreak {
+    page-break-after: always; margin: 0; display: block
+}
+
+
+.calibre_258 { text-indent: 34% }
+
+.calibre_1629 { margin-top: 3pt; text-indent: 0pt; text-align: center }
+
+.calibre_274 { margin-top: 1em; text-indent: 2em }
+
+.calibre_652 { text-align: middle }
+
+.calibre_307 { margin-top: 1em; text-indent: 0pt; text-align: center }
+
+.calibre_16 { margin-top: 4pt; text-indent: 0pt }
+
+.calibre_1632 { margin-top: 3pt; text-indent: 2em }
+
+.calibre_356 { margin-top: 8pt; text-indent: 2em }
+
+.calibre_12 { margin-top: 2em; text-indent: 0pt }
+
+.calibre_227 { vertical-align: baseline }
+
+.calibre_266 { margin-top: 2em; text-indent: 2em }
+
+.calibre_9 { margin-top: 2em; text-indent: 0pt; text-align: center }
+
+.calibre_207 { margin-top: 8pt; text-indent: 0pt }
+
+.calibre_271 { margin-top: 1em; text-indent: 0pt }
+
+.calibre_215 { margin-top: 0pt; text-indent: 0pt; text-align: right }
+
+.calibre_232 { margin-top: 0pt; text-indent: 0pt }
+
+.calibre_209 { margin-top: 8pt; text-indent: 0pt; text-align: right }
+
+.calibre_268 { margin-top: 0pt; text-indent: 2em }
+
+.calibre_226 { margin-top: 8pt; text-indent: 0pt; text-align: center }
+
+.calibre_212 { margin-top: 4pt; text-indent: 0pt; text-align: right }
+

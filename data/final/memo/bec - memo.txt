@@ -1,0 +1,51 @@
+81		skil(l)ful
+135		harbo(u)r
+370		recognize (recognise)
+377		analyze (analyse)
+494		memorandum (=memo)
+638		flavo(u)r
+733		layoff (lay-off)
+735		enquire (inquire)
+821		cheque (check)
+900		organize (organise)
+981		judg(e)ment
+1046		realize (realise)
+1073		tip-top (tiptop)
+1088		backward(s)
+1132		HRD (= human resources development) 人力资源开
+1136		ETA (= estimated time of arrival)
+1162		CBA (= cost-benefit analysis)
+1237		p.a. 每
+1334		MB (= megabyte) 兆字
+1339		DP （=data processing
+1400		ATM (= automatic teller machine)
+1409		B-school (business school)
+1470		downtime (down time)
+1507		rigo(u)r
+1521		CEO (= Chief Executive Officer)
+1569		point-of-sale(s)
+1571		CAD (=Computer Aided Design) 计算机辅助设
+1589		labo(u)rer
+1604		ERP (=enterprise resource planning)
+1606		instal(l)ment
+1637		CIF (=cost, insurance and freight)
+1654		labo(u)r
+1786		swap (swop)
+1793		CV (=curriculum vitae)
+1823		D/A (= deposit account)
+1859		PA (= personal assistant) 私人助理；（=personal account
+1882		TT (= telegraphic transfer)
+1883		VAT (= value-added tax)
+2091		chequebook (checkbook)
+2138		behavio(u)r
+2413		b/e (= bill of exchange)
+2474		enclosure (Encl.)
+2479		ex-dividend (XD)
+2692		attn (= for the attention of)
+2704		c/o 由…转交；转下页
+2720		BA (= bank acceptance)
+2725		RSVP (=please reply)
+2774		endeavo(u)r
+
+
+count: 2802
