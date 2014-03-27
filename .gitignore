@@ -7,9 +7,19 @@ lib-cov
 *.pid
 *.gz
 
-pids
-logs
-results
+# os and ide files
+.DS_store
+.idea
 
-npm-debug.log
+# runtime dependency files
 node_modules
+pids
+logs/*
+
+# deployment dependency files
+public/components
+public/build
+web/build
+migrations/.migrate
+
+
