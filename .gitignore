@@ -14,7 +14,7 @@ lib-cov
 # runtime dependency files
 node_modules
 pids
-logs/*
+logs
 
 # deployment dependency files
 public/components
