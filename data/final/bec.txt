@@ -1854,7 +1854,7 @@ stock
 litigate
 abate
 stainless
-PA (= personal assistant)(= personal account)
+PA (= personal assistant)
 revenue
 relevance
 interactive

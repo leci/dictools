@@ -49,3 +49,10 @@
 
 
 count: 2802
+
+1132		HRD (= human resources development) 人力资源开
+1237		p.a. 每
+1334		MB (= megabyte) 兆字
+1571		CAD (=Computer Aided Design) 计算机辅助设
+1859		PA (= personal assistant) 私人助理；（=personal account   -> PA (= personal assistant)
+2704		c/o 由…转交；转下页

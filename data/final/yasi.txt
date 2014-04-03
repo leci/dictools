@@ -1221,7 +1221,7 @@ stainless
 hallowed
 terminal
 climate
-bring around/round
+bring around
 relevance
 reluctant
 laterality
@@ -1568,7 +1568,7 @@ lag
 trigger
 supplement
 offend
-as for/to
+as for
 enclose
 supply
 on the horizon
@@ -1955,7 +1955,7 @@ horizon
 trick
 centigrade
 courageous
-as if/though
+as if
 academic
 preferable
 biometrics

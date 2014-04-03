@@ -1,4 +1,4 @@
 330		independent£Û??nd??pend?nt£Ý
-1226		bring around/round
-1573		as for/to
-1960		as if/though
+1226		bring around/round -> bring around
+1573		as for/to -> as for
+1960		as if/though ->as if

@@ -10,10 +10,10 @@ module.exports = {
     },
     mysql:{
         host: 'localhost',
-        user: 'root',
-        password: '',
-        database:'ledict',
-        port: 3316
+        user: 'leci',
+        password: 'leci',
+        database:'word_dict',
+        port: 3306
     },
     logging: {
         reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly

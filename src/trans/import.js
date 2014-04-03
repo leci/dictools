@@ -1,9 +1,8 @@
 var fs = require('fs'),
     readline = require('readline'),
+    async = require('async');
     pool = require('../commons/mysql');
     tools = require('../commons/mysql-tools');
-
-var deckid = 1;
 
 var insertDeckWordSequence = function(deckid, word, sequence, callback){
     tools.generateInserter(
@@ -17,23 +16,43 @@ var insertDeckWordSequence = function(deckid, word, sequence, callback){
     )(callback);
 };
 
-var rd = readline.createInterface({
-    input: fs.createReadStream(__dirname + '/../../data/final/gre.txt'),
-    output: process.stdout,
-    terminal: false
-});
+module.exports = function(deckName, deckId, path, callback){
 
-var list = [];
-rd.on('line', function(line) {
-    var word = line.trim();
-    word!='' ? list.push(word) : null;
-//    console.info(line);
-});
-rd.on('close', function() {
-    console.error('===================length: ' + list.length);
-    list.forEach(function(word, i){
-        insertDeckWordSequence(deckid, word, i+1, function(err, rows){
-//            console.info(deckid + '\t' + word + '\t' + i+1);
-        });
+    var rd = readline.createInterface({
+        input: fs.createReadStream(path),
+        output: process.stdout,
+        terminal: false
     });
-});
+
+    var list = [];
+    rd.on('line', function(line) {
+        var word = line.trim();
+        word!='' ? list.push(word) : null;
+    });
+    rd.on('close', function() {
+        console.info('=================== length: ' + list.length);
+        var asyncInserts = new Array(list.length);
+        list.forEach(function(word, i){
+            var insert = function(cb){
+                insertDeckWordSequence(deckId, word, i+1, function(err, rows){
+                    cb(err, rows.affectedRows);
+                });
+            };
+            asyncInserts[i] = insert;
+        });
+
+        async.series(asyncInserts,
+            function(err, results){
+                if(err){
+                    console.error('Fail to insert words into deck ' + deckName + ': ' + err.message);
+                }
+                else{
+                    console.info(results.length + ' words are inserted into deck ' + deckName);
+                }
+                if(callback){
+                    callback(err, results);
+                }
+            }
+        );
+    });
+};

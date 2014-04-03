@@ -1,2 +1,2 @@
-1		hover]  例子单词
-2792		fa?ade
+1		hover]  例子单词 -> delete it
+2792		fa?ade -> facade

@@ -1,8 +1,8 @@
 var importWord = require('./import');
 
-var deckName = 'TOEFL';
-var deckId = 3;
-var path = __dirname + '/../../data/final/tuofu.txt';
+var deckName = 'IELTS';
+var deckId = 5;
+var path = __dirname + '/../../data/final/yasi.txt'; //3207
 
 importWord(deckName, deckId, path);
 
